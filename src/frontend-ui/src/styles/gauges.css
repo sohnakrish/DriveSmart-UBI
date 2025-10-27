@@ -1,0 +1,35 @@
+.score-meter {
+  position: relative;
+  width: 180px;
+  height: 90px;
+  background: transparent;
+}
+
+.circle {
+  width: 180px;
+  height: 90px;
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+  border: 10px solid #00e0ff;
+  border-bottom: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.fill {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 8px;
+  height: 80px;
+  background: #00ffc6;
+  transform-origin: bottom center;
+  transition: transform 0.6s ease;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
